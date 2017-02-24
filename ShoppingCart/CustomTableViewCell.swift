@@ -28,12 +28,14 @@ class CustomTableViewCell: UITableViewCell {
     }
 
   private func commonInit() {
-    self.backgroundColor = UIColor.gray
+//    self.backgroundColor = UIColor.red
     self.textLabel?.textColor = UIColor.white
+
+    self.contentView.backgroundColor = UIColor.gray
 
 
     let view = UIView()
-    view.frame = self.bounds
+    view.frame = self.frame
     view.backgroundColor = UIColor.red
     self.insertSubview(view, belowSubview: self.contentView)
 

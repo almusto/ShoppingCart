@@ -14,7 +14,7 @@
 		AA7935A91E5CB59800526B7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7935A71E5CB59800526B7B /* LaunchScreen.storyboard */; };
 		AA7935B41E5CB59800526B7B /* ShoppingCartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7935B31E5CB59800526B7B /* ShoppingCartTests.swift */; };
 		AA7935BF1E5CB59800526B7B /* ShoppingCartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7935BE1E5CB59800526B7B /* ShoppingCartUITests.swift */; };
-		AA7935CD1E5CCCCB00526B7B /* ShoppingCartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7935CC1E5CCCCB00526B7B /* ShoppingCartVC.swift */; };
+		AA7935CD1E5CCCCB00526B7B /* ShoppingCartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7935CC1E5CCCCB00526B7B /* ShoppingCartTableViewController.swift */; };
 		AA7935CF1E5CD4E200526B7B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7935CE1E5CD4E200526B7B /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +49,7 @@
 		AA7935BA1E5CB59800526B7B /* ShoppingCartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7935BE1E5CB59800526B7B /* ShoppingCartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartUITests.swift; sourceTree = "<group>"; };
 		AA7935C01E5CB59800526B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA7935CC1E5CCCCB00526B7B /* ShoppingCartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCartVC.swift; sourceTree = "<group>"; };
+		AA7935CC1E5CCCCB00526B7B /* ShoppingCartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCartTableViewController.swift; sourceTree = "<group>"; };
 		AA7935CE1E5CD4E200526B7B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +105,7 @@
 				AA7935A01E5CB59800526B7B /* InputView.swift */,
 				AA7935CE1E5CD4E200526B7B /* CustomTableViewCell.swift */,
 				AA7935A21E5CB59800526B7B /* Main.storyboard */,
-				AA7935CC1E5CCCCB00526B7B /* ShoppingCartVC.swift */,
+				AA7935CC1E5CCCCB00526B7B /* ShoppingCartTableViewController.swift */,
 				AA7935A51E5CB59800526B7B /* Assets.xcassets */,
 				AA7935A71E5CB59800526B7B /* LaunchScreen.storyboard */,
 				AA7935AA1E5CB59800526B7B /* Info.plist */,
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA7935CD1E5CCCCB00526B7B /* ShoppingCartVC.swift in Sources */,
+				AA7935CD1E5CCCCB00526B7B /* ShoppingCartTableViewController.swift in Sources */,
 				AA7935A11E5CB59800526B7B /* InputView.swift in Sources */,
 				AA7935CF1E5CD4E200526B7B /* CustomTableViewCell.swift in Sources */,
 				AA79359F1E5CB59800526B7B /* AppDelegate.swift in Sources */,

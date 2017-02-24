@@ -82,7 +82,7 @@ class InputView: UIViewController, UITextViewDelegate, UIScrollViewDelegate {
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if segue.identifier == "createCart" {
       if textView.text != nil {
-        let dest = segue.destination as! ShoppingCartVC
+        let dest = segue.destination as! ShoppingCartTableViewController
         dest.shoppingCart = textView.text.components(separatedBy: "\n")
     }
   }
