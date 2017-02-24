@@ -19,7 +19,9 @@ class InputView: UIViewController, UITextViewDelegate, UIScrollViewDelegate {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+
+    self.navigationController?.interactivePopGestureRecognizer?.isEnabled = false
+
     view.addSubview(scrollView)
     scrollView.frame = self.view.bounds
     scrollView.delegate = self
