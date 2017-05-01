@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		AA79359F1E5CB59800526B7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79359E1E5CB59800526B7B /* AppDelegate.swift */; };
-		AA7935A11E5CB59800526B7B /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7935A01E5CB59800526B7B /* InputView.swift */; };
+		AA7935A11E5CB59800526B7B /* InputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7935A01E5CB59800526B7B /* InputVC.swift */; };
 		AA7935A41E5CB59800526B7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7935A21E5CB59800526B7B /* Main.storyboard */; };
 		AA7935A61E5CB59800526B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7935A51E5CB59800526B7B /* Assets.xcassets */; };
 		AA7935A91E5CB59800526B7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7935A71E5CB59800526B7B /* LaunchScreen.storyboard */; };
 		AA7935B41E5CB59800526B7B /* ShoppingCartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7935B31E5CB59800526B7B /* ShoppingCartTests.swift */; };
 		AA7935BF1E5CB59800526B7B /* ShoppingCartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7935BE1E5CB59800526B7B /* ShoppingCartUITests.swift */; };
-		AA7935CD1E5CCCCB00526B7B /* ShoppingCartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7935CC1E5CCCCB00526B7B /* ShoppingCartTableViewController.swift */; };
+		AA7935CD1E5CCCCB00526B7B /* ShoppingCartTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7935CC1E5CCCCB00526B7B /* ShoppingCartTVC.swift */; };
 		AA7935CF1E5CD4E200526B7B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7935CE1E5CD4E200526B7B /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		AA79359B1E5CB59800526B7B /* ShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA79359E1E5CB59800526B7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA7935A01E5CB59800526B7B /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		AA7935A01E5CB59800526B7B /* InputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputVC.swift; sourceTree = "<group>"; };
 		AA7935A31E5CB59800526B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA7935A51E5CB59800526B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA7935A81E5CB59800526B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		AA7935BA1E5CB59800526B7B /* ShoppingCartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7935BE1E5CB59800526B7B /* ShoppingCartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartUITests.swift; sourceTree = "<group>"; };
 		AA7935C01E5CB59800526B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA7935CC1E5CCCCB00526B7B /* ShoppingCartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCartTableViewController.swift; sourceTree = "<group>"; };
+		AA7935CC1E5CCCCB00526B7B /* ShoppingCartTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCartTVC.swift; sourceTree = "<group>"; };
 		AA7935CE1E5CD4E200526B7B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,11 +101,9 @@
 		AA79359D1E5CB59800526B7B /* ShoppingCart */ = {
 			isa = PBXGroup;
 			children = (
-				AA79359E1E5CB59800526B7B /* AppDelegate.swift */,
-				AA7935A01E5CB59800526B7B /* InputView.swift */,
-				AA7935CE1E5CD4E200526B7B /* CustomTableViewCell.swift */,
+				AAE76F451EB79A2500211867 /* Views */,
+				AAE76F441EB79A1A00211867 /* Controllers */,
 				AA7935A21E5CB59800526B7B /* Main.storyboard */,
-				AA7935CC1E5CCCCB00526B7B /* ShoppingCartTableViewController.swift */,
 				AA7935A51E5CB59800526B7B /* Assets.xcassets */,
 				AA7935A71E5CB59800526B7B /* LaunchScreen.storyboard */,
 				AA7935AA1E5CB59800526B7B /* Info.plist */,
@@ -129,6 +127,24 @@
 				AA7935C01E5CB59800526B7B /* Info.plist */,
 			);
 			path = ShoppingCartUITests;
+			sourceTree = "<group>";
+		};
+		AAE76F441EB79A1A00211867 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA79359E1E5CB59800526B7B /* AppDelegate.swift */,
+				AA7935CC1E5CCCCB00526B7B /* ShoppingCartTVC.swift */,
+				AA7935A01E5CB59800526B7B /* InputVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AAE76F451EB79A2500211867 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA7935CE1E5CD4E200526B7B /* CustomTableViewCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,8 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA7935CD1E5CCCCB00526B7B /* ShoppingCartTableViewController.swift in Sources */,
-				AA7935A11E5CB59800526B7B /* InputView.swift in Sources */,
+				AA7935CD1E5CCCCB00526B7B /* ShoppingCartTVC.swift in Sources */,
+				AA7935A11E5CB59800526B7B /* InputVC.swift in Sources */,
 				AA7935CF1E5CD4E200526B7B /* CustomTableViewCell.swift in Sources */,
 				AA79359F1E5CB59800526B7B /* AppDelegate.swift in Sources */,
 			);
